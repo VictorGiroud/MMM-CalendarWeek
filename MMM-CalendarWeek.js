@@ -337,6 +337,7 @@ Module.register("MMM-CalendarWeek", {
 						timeWrapper.className = "time light";
 						timeWrapper.align = "left";
 						timeWrapper.style.paddingLeft = "2px";
+						timeWrapper.style.paddingRight = "5px";
 						var timeFormatString = "";
 						switch (config.timeFormat) {
 						case 12: {
